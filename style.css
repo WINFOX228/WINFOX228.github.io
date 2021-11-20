@@ -1,0 +1,432 @@
+h1 {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+p {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+.header_nav {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav>ul {
+    display: flex;
+    list-style-type: none
+}
+
+.nav>ul>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 12px;
+}
+
+.nav>ul>a:hover {
+    color: steelblue;
+}
+
+.ask {
+    width: 120px;
+    height: 50px;
+    background-color: steelblue;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ask:hover {
+    opacity: 0.7;
+    background-color: rgb(22, 119, 197);
+    cursor: pointer;
+}
+
+.mainpage {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: rgb(255, 240, 223);
+}
+
+.text_link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 2000px;
+}
+
+.textmain {
+    width: 530px;
+    margin-left: 500px;
+    text-align: center;
+}
+
+.text_link h1 {
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: black;
+    font-size: 50px;
+}
+
+.text_link>h1>span {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.text_link>ul {
+    list-style: none;
+    color: black;
+}
+
+.ci {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ci :hover {
+    cursor: pointer;
+}
+
+.serviseinfo {
+    width: 2500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviseinfo>p {
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-top: 50px;
+}
+
+.serviseinfo>.textservise {
+    width: 570px;
+}
+
+.textservise>h1 {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 50px;
+}
+
+.boxinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxstyle {
+    width: 300px;
+    height: 300px;
+    background-color: steelblue;
+    border-radius: 20px;
+    margin: 40px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nado {
+    background-color: rgb(255, 240, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: rgb(255, 240, 223);
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-right: 70px;
+    border-radius: 25px;
+}
+
+.about_img {
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn_me {
+    margin-top: 40px;
+    border-radius: 25px;
+    width: 120px;
+    height: 50px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_me:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+footer {
+    height: 600px;
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.btn_footer {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.btn_footer:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.about_main_info {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 50px;
+}
+
+.about_main_text {
+    background-color: rgb(255, 240, 223);
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Zen Kurenaido', sans-serif;
+    align-items: center;
+}
+
+.about_main_text>h1 {
+    font-weight: lighter;
+    width: 500px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.about_me_text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.text_me {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_me>h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.text_me>p {
+    width: 570px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 25px;
+}
+
+.image_me {
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_about {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box_me {
+    width: 240px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 0 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_main {
+    height: 800px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.input_block {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.inp_text {
+    width: auto;
+    height: 200px;
+    text-align: center;
+    border: 2px solid steelblue;
+}
+
+.inp_sub {
+    margin-top: 30px;
+    width: auto;
+    height: 50px;
+    border: 2px solid steelblue;
+}
+
+.name_mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp_name {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid steelblue;
+}
+
+.inp_mail {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid steelblue;
+}
+
+.btn_ent {
+    margin-top: 30px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+    border: 1px solid steelblue;
+    border-radius: 5%;
+    text-align: center;
+    background-color: steelblue;
+}
+
+.btn_ent:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.contacts {
+    width: 800px;
+    margin-top: 80px;
+}
+
+.contacts ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts>ul>li i {
+    margin-right: 10px;
+}
+
+.contacts:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.about_img>img {
+    width: 400px;
+    height: 400px;
+}
+
+.zdes_pusto>img {
+    width: 1887px;
+    height: 900px;
+}
+
+.image_me>img {
+    width: 400px;
+    height: 400px;
+}
+
+.ask_block>input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid steelblue;
+}
+
+.ask_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
