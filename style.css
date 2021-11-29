@@ -21,9 +21,6 @@ i{
     color: white;
 }
 main{
-    
-    width: auto;
-    height: 62.50em;
     display: flex;
     background-image: url(synth.jpg);
     background-size: cover;
